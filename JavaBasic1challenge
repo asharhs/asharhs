@@ -1,0 +1,19 @@
+public class JavaBasic {
+    public static void main (String[]args){
+
+        // deklarasi dari variabel
+        String firstname = "Ashar";
+        String lastname = "Julian";
+        int age = 21;
+        String address = "Barru";
+        String phone = "088245884837";
+        String college = "Stie Amkop Makassar";
+
+        // menampilkan variabel diatas
+        System.out.println ("Fullname: " + firstname +" " +lastname);
+        System.out.println ("Age: " + age + " Years Old");
+        System.out.println ("Address: " + address);
+        System.out.println ("Phone Number: " + phone);
+        System.out.println ("Campus Origin: "+ college);
+    }
+}
